@@ -10,7 +10,6 @@ public class HelloWorldResource {
 
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
-	//@Path("/")
 	public String getHello() {
 		return "Hello World";
 	}

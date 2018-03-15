@@ -17,15 +17,16 @@
 	</parent>
 
 	<dependencies>
-
+	
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<groupId>microservice-starter</groupId>
+			<artifactId>microservice-starter</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter-jersey</artifactId>
 		</dependency>
 
 	</dependencies>
@@ -36,7 +37,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>rnd.web.service.rest.Application</mainClass>
+					<mainClass>rnd.web.service.rest.App</mainClass>
 				</configuration>
 				<executions>
 					<execution>

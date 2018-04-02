@@ -41,7 +41,7 @@
 			<plugin>
 				<groupId>org.wildfly.swarm</groupId>
 				<artifactId>wildfly-swarm-plugin</artifactId>
-				<version>${version.wildfly.swarm}</version>
+				<version>2018.3.3</version>
 				<configuration>
 					<mainClass>rnd.web.service.rest.App</mainClass>
 				</configuration>

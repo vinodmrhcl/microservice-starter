@@ -8,8 +8,8 @@ Microservice Starter Collection
 3. [Grizzly](https://github.com/ERS-HCL/microservice-starter-grizzly)
 3. [Netty](https://github.com/ERS-HCL/microservice-starter-netty)
 4. [JBoss Undertow](https://github.com/ERS-HCL/microservice-starter-jboss)
+5. [Wildfly Swarm](https://github.com/ERS-HCL/microservice-starter-wildflyswarm)
 
 ** ToDo
 
-5. [Wildfly Swarm](https://github.com/vinodmrhcl/microservice-starter-wildflyswarm)
 6. [NodeJS](https://github.com/vinodmrhcl/microservice-starter-nodejs)

@@ -1,4 +1,6 @@
 # Microservice Starter
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FERS-HCL%2Fmicroservice-starter.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FERS-HCL%2Fmicroservice-starter?ref=badge_shield)
+
 
 ## Basic Setup
 
@@ -46,3 +48,7 @@ You need to refer below specific implementation to see how all this happens for 
 5. [Netty](microservice-starter-netty)
 6. [JBoss Undertow](microservice-starter-jboss)
 7. [Wildfly Swarm](microservice-starter-wildflyswarm)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FERS-HCL%2Fmicroservice-starter.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FERS-HCL%2Fmicroservice-starter?ref=badge_large)

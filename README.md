@@ -46,7 +46,7 @@ You need to refer below specific implementation to see how all this happens for 
 3. [Jetty](microservice-starter-jetty)
 4. [Grizzly](microservice-starter-grizzly)
 5. [Netty](microservice-starter-netty)
-6. [JBoss Undertow](microservice-starter-jboss)
+6. [JBoss Undertow](microservice-starter-undertow)
 7. [Wildfly Swarm](microservice-starter-wildflyswarm)
 
 

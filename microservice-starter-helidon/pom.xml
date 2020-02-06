@@ -28,6 +28,24 @@
 		<dependency>
 			<groupId>io.helidon.microprofile.bundles</groupId>
 			<artifactId>helidon-microprofile</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>io.helidon.microprofile.tracing</groupId>
+					<artifactId>helidon-microprofile-tracing</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>io.helidon.microprofile.metrics</groupId>
+					<artifactId>helidon-microprofile-metrics2</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>io.helidon.microprofile.jwt</groupId>
+					<artifactId>helidon-microprofile-jwt-auth-cdi</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>io.helidon.microprofile</groupId>
+					<artifactId>helidon-microprofile-fault-tolerance</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 	</dependencies>
 
@@ -90,6 +108,7 @@
 									implementation="org.apache.maven.plugins.shade.resource.IncludeResourceTransformer">
 									<resource>META-INF/beans.xml</resource>
 								</transformer>
+								<transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
 							</transformers>
 						</configuration>
 					</execution>

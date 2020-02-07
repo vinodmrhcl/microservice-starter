@@ -5,7 +5,7 @@ Red Hat Quarkus is supersonic, subatomic Java framework for creating cloud nativ
 
 ### Packaging
 
-Red Hat Quarkus provides its own maven support to package the code and it's all dependency as Uber jar including the container itself. For this, you need to add following build plugin.
+Red Hat Quarkus provides its own maven support to package the code and it's all dependency as Uber jar including the container itself. For this, you need to add following build plugin and application configuration.
 
 ```
 <build>
@@ -24,6 +24,12 @@ Red Hat Quarkus provides its own maven support to package the code and it's all 
     </plugin>
   </plugins>
 </build>
+```
+
+application.properties
+
+```
+quarkus.package.uber-jar=true
 ```
 
 ### Deployment

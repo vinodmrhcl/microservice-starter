@@ -53,6 +53,7 @@ You need to refer below specific implementation to see how all this happens for 
 2. [Wildfly Swarm](microservice-starter-wildflyswarm)
 3. [Red Hat Quarkus](microservice-starter-quarkus)
 4. [Oracle Helidon](microservice-starter-helidon)
+5. [Micronaut](microservice-starter-micronaut)
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FERS-HCL%2Fmicroservice-starter.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FERS-HCL%2Fmicroservice-starter?ref=badge_large)

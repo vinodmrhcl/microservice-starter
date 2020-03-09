@@ -96,6 +96,6 @@ mvn exec:java
 #### Prod
 
 ```
-java - jar target/microservice-starter-helidon.jar
+java - jar target/microservice-starter-micronaut.jar
 ```
 
